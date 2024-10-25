@@ -1,0 +1,21 @@
+body
+{
+    margin: 0;
+    height: 100vh;
+    background: whitesmoke;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+}
+
+header
+{
+    font-size: 26px;
+    color: black;
+    text-align: center;
+    margin-top: -38%;
+    padding-bottom: 1.5%;
+}

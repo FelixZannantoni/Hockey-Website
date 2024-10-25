@@ -1,0 +1,39 @@
+/*https://wallpapercave.com/wp/1yzzLHL.jpg*/
+body
+{
+    margin: 0;
+    height: 100vh;
+    background-image: url("https://wallpaperset.com/w/full/0/6/d/84243.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+}
+
+header
+{
+    font-size: 26px;
+    color: blue;
+    text-align: center;
+    margin-top: -38%;
+    padding-bottom: 1.5%;
+}
+
+nav a
+{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+nav a:hover
+{
+    color: gray;
+}
+
+
