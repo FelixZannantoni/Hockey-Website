@@ -1,7 +1,6 @@
 body
 {
-    margin: 0;
-    height: 100vh;
+    height: 300vh;
     background: whitesmoke;
     background-size: cover;
     display: flex;
@@ -9,19 +8,5 @@ body
     align-items: center;
     flex-direction: column;
     font-family: 'Arial', sans-serif;
-}
-
-header
-{
-    font-size: 26px;
-    color: black;
-    text-align: center;
-    margin-top: -38%;
-    padding-bottom: 1.5%;
-}
-
-h1
-{
-    font-size: 10px;
-    color: black;
+    margin-top: 10%;
 }
