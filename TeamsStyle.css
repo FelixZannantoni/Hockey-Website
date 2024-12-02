@@ -1,6 +1,6 @@
 body
 {
-    height: 300vh;
+    height: 600vh;
     background: whitesmoke;
     background-size: cover;
     display: flex;
@@ -9,5 +9,4 @@ body
     flex-direction: column;
     font-family: 'Arial', sans-serif;
     margin-top: 10%;
-
 }
