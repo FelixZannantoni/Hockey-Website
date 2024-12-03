@@ -2,11 +2,17 @@ body
 {
     height: 100%;
     background: whitesmoke;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     font-family: 'Arial', sans-serif;
-    margin-top: 10%;
+    margin-top: 5%;
 }
+
+.Team1 img, .Team2 img, .Team3 img, .Team4 img , .Team5 img, .Team6 img, .Team7 img, .Team8 img, .Team9 img,
+.Team10 img, .Team11 img, .Team12 img, .Team13 img, .Team14 img, .Team15 img, .Team16 img, .Team17 img,
+.Team18 img, .Team19 img, .Team20 img, .Team22 img, .Team23 img, .Team24 img, .Team25 img, .Team26 img,
+.Team27 img, .Team28 img, .Team29 img, .Team30 img, .Team31 img, .Team32 img
+{
+    margin-top: -3%;
+    margin-left: -2.5%;
+    margin-bottom: -3%;
+}
+
