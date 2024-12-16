@@ -1,18 +1,49 @@
 body
 {
     height: 100%;
-    background: whitesmoke;
+    background: darkgrey;
     font-family: 'Arial', sans-serif;
     margin-top: 5%;
 }
 
-.Team1 img, .Team2 img, .Team3 img, .Team4 img , .Team5 img, .Team6 img, .Team7 img, .Team8 img, .Team9 img,
-.Team10 img, .Team11 img, .Team12 img, .Team13 img, .Team14 img, .Team15 img, .Team16 img, .Team17 img,
-.Team18 img, .Team19 img, .Team20 img, .Team22 img, .Team23 img, .Team24 img, .Team25 img, .Team26 img,
-.Team27 img, .Team28 img, .Team29 img, .Team30 img, .Team31 img, .Team32 img
+section
+{
+    color: black;
+    border-radius: 15px;
+    background: white;
+    padding: 15px;
+    box-shadow: 5px 5px 5px lightblue;
+}
+
+section ul
+{
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease, max-height 0.5s ease;
+}
+
+section:hover ul
+{
+    opacity: 1;
+    max-height: 500px;
+}
+
+
+.Team1 img, .Team2 img, .Team3 img, .Team4 img, .Team5 img, .Team6 img, .Team7 img, .Team8 img, .Team9 img,
+.Team11 img, .Team12 img, .Team14 img, .Team15 img, .Team17 img, .Team18 img, .Team19 img, .Team20 img,
+.Team21 img, .Team22 img, .Team23 img, .Team24 img, .Team25 img, .Team26 img, .Team27 img, .Team28 img,
+.Team29 img, .Team30 img, .Team32 img
 {
     margin-top: -3%;
-    margin-left: -2.5%;
+    margin-left: -2%;
+    margin-bottom: -3%;
+}
+
+.Team5 img, .Team10 img, .Team13 img, .Team14 img, .Team16 img, .Team25 img, .Team31 img
+{
+    margin-top: -3%;
+    margin-left: -0.5%;
     margin-bottom: -3%;
 }
 
