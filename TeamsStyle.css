@@ -1,18 +1,54 @@
 body
 {
     height: 100%;
-    background: darkgrey;
+    background: darkgray;
     font-family: 'Arial', sans-serif;
     margin-top: 5%;
 }
 
+nav a
+{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    cursor: pointer;
+    position: sticky;
+}
+
+nav a:hover
+{
+    color: gray;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.menu
+{
+    text-align: center;
+    background-color: hotpink;
+    height: 25px;
+    width: 100%;
+    position: sticky;
+    top: 30px;
+
+}
+
+h3
+{
+    color: white;
+    margin-left: 1%;
+    font-size: 20px;
+}
+
 section
 {
+    margin-top: 1.5%;
     color: black;
     border-radius: 15px;
-    background: white;
+    background: darkgray;
     padding: 15px;
-    box-shadow: 5px 5px 5px lightblue;
+    box-shadow: 0 2px 10px rgba(0.1, 0.1, 0.1, 0.1);
 }
 
 section ul
@@ -38,6 +74,7 @@ section:hover ul
     margin-top: -3%;
     margin-left: -2%;
     margin-bottom: -3%;
+
 }
 
 .Team5 img, .Team10 img, .Team13 img, .Team14 img, .Team16 img, .Team25 img, .Team31 img
