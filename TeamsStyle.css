@@ -3,35 +3,37 @@ body
     height: 100%;
     background: darkgray;
     font-family: 'Arial', sans-serif;
-    margin-top: 5%;
 }
 
-nav a
+body
 {
-    font-size: 18px;
+    height: 100%;
+    background: darkgray;
+    font-family: 'Arial', sans-serif;
+}
+
+nav {
+    background-color: #333;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 3);
+}
+
+nav a {
     color: white;
     text-decoration: none;
-    padding: 15px;
-    cursor: pointer;
-    position: sticky;
+    font-size: 18px;
+    margin: 0 15px;
+    display: inline-block;
+    padding: 10px 15px;
 }
 
-nav a:hover
-{
-    color: gray;
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
-.menu
-{
-    text-align: center;
-    background-color: hotpink;
-    height: 25px;
-    width: 100%;
-    position: sticky;
-    top: 30px;
-
+nav a:hover {
+    color: lightblue;
+    font-size: 20px;
+    transition: color 0.3s ease, font-size 0.3s ease;
 }
 
 h3
@@ -83,5 +85,3 @@ section:hover ul
     margin-left: -0.5%;
     margin-bottom: -3%;
 }
-
-
