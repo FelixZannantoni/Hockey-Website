@@ -1,0 +1,151 @@
+body
+{
+    background-image: url('https://cdn.saleminteractivemedia.com/associated-press/data/photos/2017/186/35e49a03-9839-4e82-a929-f046a4e606ae.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.helmet-box
+{
+    background-color: hotpink;
+    height: 200px;
+    width: 200px;
+    top: 20px;
+    left: 650px;
+    position: absolute;
+}
+
+.skates-box
+{
+    background-color: blue;
+    height: 170px;
+    width: 200px;
+    top: 865px;
+    left: 125px;
+    position: absolute;
+    rotate: 20deg;
+}
+
+.shinpad-box
+{
+    background-color: orange;
+    height: 320px;
+    width: 150px;
+    top: 585px;
+    left: 330px;
+    position: absolute;
+    rotate: 30deg;
+}
+
+.lefthand-box
+{
+    background-color: yellow;
+    height: 150px;
+    width: 100px;
+    top: 530px;
+    left: 670px;
+    position: absolute;
+    rotate: 35deg;
+}
+
+.righthand-box
+{
+    background-color: yellow;
+    height: 150px;
+    width: 100px;
+    top: 370px;
+    left: 530px;
+    position: absolute;
+    rotate: -30deg;
+}
+
+.leftelbow-box
+{
+    background-color: lightblue;
+    height: 120px;
+    width: 100px;
+    top: 215px;
+    left: 410px;
+    position: absolute;
+    rotate: 35deg;
+}
+
+.rightelbow-box
+{
+    background-color: lightblue;
+    height: 120px;
+    width: 100px;
+    top: 360px;
+    left: 790px;
+    position: absolute;
+    rotate: 10deg;
+}
+
+.hockeystick-box
+{
+    background-color: red;
+    height: 430px;
+    width: 100px;
+    top: 640px;
+    left: 820px;
+    position: absolute;
+    rotate: -30deg;
+}
+
+.trousers-box1
+{
+    background-color: black;
+    height: 200px;
+    width: 120px;
+    top: 450px;
+    left: 450px;
+    position: absolute;
+    rotate: -30deg;
+}
+
+.trousers-box2
+{
+    background-color: black;
+    height: 200px;
+    width: 120px;
+    top: 600px;
+    left: 500px;
+    position: absolute;
+    rotate: 30deg;
+}
+
+.breast-box1
+{
+    background-color: white;
+    height: 280px;
+    width: 170px;
+    top: 190px;
+    left: 575px;
+    position: absolute;
+    rotate: -45deg;
+}
+
+.breast-box2
+{
+    background-color: white;
+    height: 100px;
+    width: 150px;
+    top: 130px;
+    left: 500px;
+    position: absolute;
+}
+
+.breast-box3
+{
+    background-color: white;
+    height: 135px;
+    width: 220px;
+    top: 220px;
+    left: 670px;
+    position: absolute;
+}
