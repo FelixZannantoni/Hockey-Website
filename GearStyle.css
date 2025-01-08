@@ -149,3 +149,83 @@ body
     left: 670px;
     position: absolute;
 }
+
+.helmet-info
+{
+    background-color: grey;
+    height: 140px;
+    width: 280px;
+    top: 20px;
+    left: 50px;
+    position: absolute;
+}
+
+.breast-info
+{
+    background-color: grey;
+    height: 180px;
+    width: 280px;
+    top: 150px;
+    left: 950px;
+    position: absolute;
+}
+
+.elbow-info
+{
+    background-color: grey;
+    height: 150px;
+    width: 280px;
+    top: 190px;
+    left: 50px;
+    position: absolute;
+}
+
+.hand-info
+{
+    background-color: grey;
+    height: 120px;
+    width: 280px;
+    top: 470px;
+    left: 950px;
+    position: absolute;
+}
+
+.hockeystick-info
+{
+    background-color: grey;
+    height: 130px;
+    width: 280px;
+    top: 700px;
+    left: 950px;
+    position: absolute;
+}
+
+.trousers-info
+{
+    background-color: grey;
+    height: 150px;
+    width: 280px;
+    top: 370px;
+    left: 50px;
+    position: absolute;
+}
+
+.shinpad-info
+{
+    background-color: grey;
+    height: 270px;
+    width: 200px;
+    top: 560px;
+    left: 50px;
+    position: absolute;
+}
+
+.skates-info
+{
+    background-color: grey;
+    height: 170px;
+    width: 280px;
+    top: 870px;
+    left: 450px;
+    position: absolute;
+}
