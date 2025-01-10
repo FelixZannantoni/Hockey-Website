@@ -5,14 +5,8 @@ body
     font-family: 'Arial', sans-serif;
 }
 
-body
+nav
 {
-    height: 100%;
-    background: darkgray;
-    font-family: 'Arial', sans-serif;
-}
-
-nav {
     background-color: #333;
     text-align: center;
     position: sticky;
@@ -21,7 +15,8 @@ nav {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 3);
 }
 
-nav a {
+nav a
+{
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -30,7 +25,8 @@ nav a {
     padding: 10px 15px;
 }
 
-nav a:hover {
+nav a:hover
+{
     color: lightblue;
     font-size: 20px;
     transition: color 0.3s ease, font-size 0.3s ease;
