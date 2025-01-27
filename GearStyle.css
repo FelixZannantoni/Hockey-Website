@@ -109,7 +109,7 @@ body
     rotate: 30deg;
 }
 
-.breast-box1
+.chest-box1
 {
     height: 280px;
     width: 170px;
@@ -119,7 +119,7 @@ body
     rotate: -45deg;
 }
 
-.breast-box2
+.chest-box2
 {
     height: 100px;
     width: 150px;
@@ -128,7 +128,7 @@ body
     position: absolute;
 }
 
-.breast-box3
+.chest-box3
 {
     height: 135px;
     width: 220px;
@@ -153,7 +153,7 @@ body
     position: absolute;
 }
 
-.breast-info
+.chest-info
 {
     display: none;
     background-color: lightblue;
@@ -169,6 +169,7 @@ body
 }
 
 .elbow-info
+
 {
     display: none;
     background-color: lightblue;
@@ -309,17 +310,17 @@ body
     display: block;
 }
 
-.breast-box1:hover ~ .breast-info
+.chest-box1:hover ~ .chest-info
 {
     display: block;
 }
 
-.breast-box2:hover ~ .breast-info
+.chest-box2:hover ~ .chest-info
 {
     display: block;
 }
 
-.breast-box3:hover ~ .breast-info
+.chest-box3:hover ~ .chest-info
 {
     display: block;
 }
@@ -350,12 +351,14 @@ body
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    border-radius: 5px;
     transition: width 0.4s ease;
 }
 
 .nav-menu a
 {
 
+    font-family: 'Arial', sans-serif;
     color: white;
     text-decoration: none;
     font-size: 18px;

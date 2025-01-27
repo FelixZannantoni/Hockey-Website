@@ -1,6 +1,7 @@
 body
 {
     font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, darkgrey, white);
 }
 
 table
@@ -24,7 +25,12 @@ th
 
 tr:nth-child(even)
 {
-    background-color: #f2f2f2;
+    background-color: lightgray;
+}
+
+tr:nth-child(odd)
+{
+    background-color: white;
 }
 
 nav
